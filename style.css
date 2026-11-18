@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "MC";
+    src: url("./extra/mcten.ttf");
+
+}
+@font-face {
+    font-family: "main";
+    src: url("./extra/main.ttf");
+
+}
+
+#logo {
+    width: 15%;
+    display: block;
+    top: 15%;
+    left: 41%;
+    z-index: 10;
+    position: absolute;
+}
+#header {
+    background-image: url("./images/banner.png");
+    background-size: cover;
+    background-position: center;
+}
+#nav {
+    position: absolute;
+    display: block;
+    bottom: 600px;
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 99;
+    background-color: rgba(80, 80, 80, 0.5);
+}
+#navtext {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 5px;
+    z-index: 100;
+    font-family: 'MC';
+    bottom: 0px;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 3px 1px 2px #000;
+}
+
+#banner {
+    width: 102%;
+    left: -8px;
+    display: inline-block;
+    position: relative;
+    height: 50%;
+    bottom: 25px;
+}
+.footer {
+    bottom: 1px;
+    width: 100%;
+    background-color: rgba(80, 80, 80, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+}
+#main {
+    background-color: #1717A2;
+    color: white;
+}
+#server {
+    position: absolute;
+    font-family: 'MC';
+    font-size: 2.0rem;
+    bottom: 65%;
+    left: 19%;
+    z-index: 100;
+    background-color: #ffffff00;
+    text-decoration: none;
+    border: none;
+    color: white;
+    text-shadow: 3px 1px 2px #000;
+}
+#server2 {
+    position: absolute;
+    font-family: 'main';
+    font-size: 2.0rem;
+    bottom: 420px;
+    left: 25%;
+    z-index: 100;
+    text-shadow: 3px 1px 2px #000;
+}
+#dcserver {
+    position: absolute;
+    font-family: 'MC';
+    font-size: 2.0rem;
+    bottom: 475px;
+    left: 57%;
+    z-index: 100;
+    background-color: #ffffff00;
+    text-decoration: none;
+    border: none;
+    color: white;
+    text-shadow: 3px 1px 2px #000;
+}
+#dcserver2 {
+    position: absolute;
+    font-family: 'main';
+    font-size: 2.0rem;
+    bottom: 439px;
+    left: 63%;
+    text-shadow: 3px 1px 2px #000;
+    z-index: 100;
+}
+#dcserver3 {
+    position: absolute;
+    font-family: 'main';
+    font-size: 2.0rem;
+    bottom: 60%;
+    text-shadow: 3px 1px 2px #000;
+    left: 65%;
+    z-index: 100;
+}

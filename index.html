@@ -22,33 +22,54 @@
 </div>
 <div class="container-fluid p-0" id="header">
     <img src="./images/banner.png" id="banner" class="container-fluid p-0">
-    <div id="nav" class="mt-4">
-        <p id="navtext" class="mb-0">
-            <a href="./index.html" id="navtext">Home </a>
-            <a> • </a>
-            <a href="./404.html" id="navtext">Connect </a>
-            <a> • </a>
-            <a href="./404.html" id="navtext">Events </a>
-            <a> • </a>
-            <a href="./xmas.html" id="navtext">Support </a>
-            <a> • </a>
-            <a href="./404.html" id="navtext">Staff</a>
-        </p>
+    <div id="nav" class="mt-3 px-2"0>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html" id="navtext">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./404.html" id="navtext">Connect</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./404.html" id="navtext">Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./xmas.html" id="navtext">Support</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./404.html" id="navtext">Staff</a>
+            </li>
     </div>
+    <div class="container py-3">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-auto">
     <p id="server" class="col"><button onclick="navigator.clipboard.writeText('play.riverstead.xyz')" id="server">Play.riverstead.xyz</button></p>
-    <p id="server2" class="col"><span data-playercounter-ip="play.joyania.xyz">0</span> online</p>
-    <img src="./images/logo.png" id="logo" class="col">
+    </div>
+        <div class="small mt-1">
+            <p id="server2" class="col"><span data-playercounter-ip="play.joyania.xyz">0</span> online</p>
+        </div>
+    </div>
+    <div class="col-12 col-md-auto">
+        <img src="./images/logo.png" id="logo" class="col">
+    </div>
+    <div class="col-12 col-md-auto">
     <a href="https://dsc.gg/riverstead" target="_blank" id="dcserver" class="col">Riverstead - Discord</a>
+    </div>
+    <div class="small mt-1">
     <span id="dcserver2">0</span><p id="dcserver3" class="col"> online</p><script>fetch("https://discord.com/api/guilds/1551009252909383772/widget.json").then(r => r.json()).then(d => { document.getElementById('dcserver2').textContent = d.presence_count; });</script></span>
+        </div>
+        </div>
+        </div>
 </div>
 </head>
 
+<div class="container px-3 px-md-4 py-4">
 <body id="main">
     <br>
     <br>
     <br>
-    <p style="font-family: MC; text-align: center; font-size: 2rem; text-shadow: 3px 1px 2px #000;" class="col"">About Us</p>
-<p style="font-family: main; left: 1%; position: relative; text-shadow: 3px 1px 2px #000;" class="col">Welcome to Riverstead SMP, a family-friendly Vanilla+ Minecraft server operating under the JoyaniaMC network. JoyaniaMC is a Christian community of creators, builders, and developers who work <br>together to craft extraordinary projects. JoyaniaMC's roots trace back to 2022 on a Minecraft server named Minecove. There, Joyed assembled a team to build a medieval town while welcoming<br> new players into our growing community. When Minecove announced its closure in 2024, Joyed and Ash decided to establish JoyaniaMC as an independent Minecraft server, granting our community <br>total creative freedom. Shortly thereafter, Minecove reopened and JoyaniaMC began picking up momentum; however, hosting expenses forced the project to pause. After navigating more than five server attempts and over two years of challenges, JoyaniaMC officially launched Riverstead on November 12th. We have been proudly running and expanding the server ever since.</p>
+    <p class="text-center mb-3" style="font-family: MC; text-align: center; font-size: 2rem; text-shadow: 3px 1px 2px #000;" class="col"">About Us</p>
+<p class="about-copy max-auto text-center text-md-start" style="font-family: main; left: 1%; position: relative; text-shadow: 3px 1px 2px #000;" class="col">Welcome to Riverstead SMP, a family-friendly Vanilla+ Minecraft server operating under the JoyaniaMC network. JoyaniaMC is a Christian community of creators, builders, and developers who work <br>together to craft extraordinary projects. JoyaniaMC's roots trace back to 2022 on a Minecraft server named Minecove. There, Joyed assembled a team to build a medieval town while welcoming<br> new players into our growing community. When Minecove announced its closure in 2024, Joyed and Ash decided to establish JoyaniaMC as an independent Minecraft server, granting our community <br>total creative freedom. Shortly thereafter, Minecove reopened and JoyaniaMC began picking up momentum; however, hosting expenses forced the project to pause. After navigating more than five server attempts and over two years of challenges, JoyaniaMC officially launched Riverstead on November 12th. We have been proudly running and expanding the server ever since.</p>
 </body>
 
 <footer>

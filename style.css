@@ -64,6 +64,7 @@
 #main {
     background-color: #1717A2;
     color: white;
+    text-shadow: 3px 1px 2px #000;
 }
 #server {
     position: absolute;
@@ -117,4 +118,19 @@
     text-shadow: 3px 1px 2px #000;
     left: 65%;
     z-index: 100;
+}
+
+
+
+html, body {
+    overflow-x: hidden;
+}
+.about-copy {
+    max-width: 780px;
+    line-height: 1.65;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+}
+.hero-logo {
+    max-width: 180px;
+    height: auto;
 }
